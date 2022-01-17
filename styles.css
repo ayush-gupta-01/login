@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fdf7f7;
+}
+
+.heading {
+  margin-top: 50px;
+}
+
+.border {
+  border-top: 3px solid red;
+  border-spacing: 20px;
+  width: 10%;
+  margin-top: 2px;
+  margin-bottom: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  padding: 15px 10px 15px 10px;
+  border-top: 5px solid red;
+  background-color: white;
+  box-shadow: 0 3px 10px rgba(109, 11, 11, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+form label {
+  margin: 2px;
+}
+
+form label .asterisk {
+  color: red;
+}
+
+form input {
+  margin: 2px;
+  height: 28px;
+}
+
+form button {
+  background-color: red;
+  border: none;
+  padding: 8px;
+  margin: 15px 2px 15px 2px;
+  cursor: pointer;
+}
+
+form button a {
+  color: white;
+  text-decoration: none;
+}
+
+form button:hover {
+  background-color: rgb(243, 63, 63);
+}
+
+.form .login-page {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  left: 75px;
+  margin-bottom: 5px;
+}
+
+.form .login-page:hover {
+  border-bottom: 2px solid red;
+}
+
+svg {
+  position: absolute;
+  bottom: 0px;
+}
