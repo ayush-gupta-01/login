@@ -81,7 +81,7 @@ form button:hover {
   position: relative;
   text-decoration: none;
   color: black;
-  left: 75px;
+  /* left: 75px; */
   margin-bottom: 5px;
 }
 
@@ -92,4 +92,20 @@ form button:hover {
 svg {
   position: absolute;
   bottom: 0px;
+}
+
+.responsive-width{
+  width: 30vw;
+}
+
+@media screen and (max-width: 1000px ) {
+  .responsive-width{
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 560px ) {
+  .responsive-width{
+    width: 80vw;
+  }
 }
